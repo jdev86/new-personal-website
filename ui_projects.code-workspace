@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "name": "root",
+            "path": "."
+        },
+        {
+            "name": "NestJS API",
+            "path": "./apps/api"
+        },
+        {
+            "name": "NextJS UI",
+            "path": "./apps/ui"
+        }
+    ]
+}
