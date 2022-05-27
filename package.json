@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@nrwl/nest": "^14.1.9"
+  }
+}
