@@ -53,7 +53,7 @@ jobs:
 
       - name: Run tests & build
         shell: bash
-        working-directory: ./next-personal-website
+        working-directory: .
         run: |
           if [[ $GITHUB_BASE_REF ]]
           then
