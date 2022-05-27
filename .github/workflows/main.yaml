@@ -65,5 +65,5 @@ jobs:
             export NX_BASE=$(git rev-parse HEAD~1)
             echo "Push Event - since GitHub.BaseRef not found - using last commit id: $NX_BASE"
           fi
-          npm run nx affected:test -- --base=$NX_BASE
-          npm run nx affected:build -- --base=$NX_BASE
+          npx nx affected:test -- --base=$NX_BASE
+          npx nx affected:build -- --base=$NX_BASE
